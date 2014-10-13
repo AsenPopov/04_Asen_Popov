@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+char ch;
+int a;
+	ch=96;
+	for(a=97;a<=122;a++)
+	{	
+		ch++;
+		printf("%c - %d\n",ch,a);	
+	}
+	ch=64;
+	for(a=65;a<=90;a++){
+		ch++;
+		printf("%c - %d\n",ch,a);
+	}
+	ch=47;
+	for(a=48;a<=57;a++)
+	{
+		ch++;
+		printf("%c - %d\n",ch,a);
+	}
+return 0;
+}
+
